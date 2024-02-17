@@ -18,17 +18,17 @@ var resultado
 		imposto = (salarioBruto * 0.10);
         tarifaImposto = (10);
 }
-	if (salarioBruto >= 2001 &&  3000){ 
+	if (salarioBruto >= 2001){ 
 		imposto = (salarioBruto * 0.15)
         tarifaImposto = (15);
 } 
         salarioLiquido = salarioBruto - imposto + beneficio
 
 		console.log("Salário Bruto = R$" + salarioBruto)
-        console.log("Imposto Aplicado = " + tarifaImposto + "%")
-		console.log("Valor do Imposto = R$" + imposto)
-        console.log("Benefícios = " + beneficio)
-        console.log("Salário Líquido = R$" + salarioLiquido)
+                 console.log("Imposto Aplicado = " + tarifaImposto + "%")
+		  console.log("Valor do Imposto = R$" + imposto)
+                   console.log("Benefícios = " + beneficio)
+                    console.log("Salário Líquido = R$" + salarioLiquido)
         
         
         
